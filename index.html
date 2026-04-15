@@ -753,7 +753,7 @@
           </div>
           <div style="display:flex;gap:6px;flex-shrink:0;flex-wrap:wrap;justify-content:flex-end"><span class="pl-freq freq-q">Quinzenal</span><span class="pl-freq" style="background:#FAECE7;color:#993C1D">Inscrição</span></div>
         </div>
-        <div style="font-size:12px;color:var(--text-secondary);line-height:1.5">Ocorre quinzenalmente e exige inscrição. Após o período de inscrições, cada mentorado recebe seu horário individual.</div>
+        <div style="font-size:12px;color:var(--text-secondary);line-height:1.5">Ocorre quinzenalmente e exige inscrição. Após o período de inscrições, o copy organiza os horários e cada mentorado recebe seu slot.</div>
       </div>
 
       <div class="pl-row" style="align-items:flex-start;flex-direction:column;gap:10px;padding:16px">
@@ -773,11 +773,11 @@
         <div style="font-size:12px;color:var(--text-secondary);line-height:1.5">Ocorre quinzenalmente e exige inscrição. Todos entram no mesmo horário e o gestor atende por ordem de chegada.</div>
       </div>
 
-    <div class="divider"></div>
+    </div>
 
     <div style="font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--text-muted);margin-bottom:12px;font-family:'Outfit',sans-serif">Outros formatos</div>
 
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(0,1fr));gap:10px">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
 
       <div class="mg-card">
         <div style="font-size:18px;margin-bottom:10px">⚡</div>
@@ -792,15 +792,15 @@
         <div class="mg-desc">Espaços de execução guiada onde você aplica estratégias em tempo real. Criados para gerar resultados imediatos.</div>
         <div style="font-size:11px;font-weight:500;color:var(--text-muted);margin-top:8px;padding-top:8px;border-top:1px solid var(--border)">Agenda variável</div>
       </div>
-      
-      <div class="mg-card" style="cursor:pointer" onclick="document.getElementById('modal-pw').style.display='flex'">
+
+      <div class="mg-card" style="cursor:pointer;grid-column:1/-1" onclick="document.getElementById('modal-pw').style.display='flex'">
         <div style="font-size:18px;margin-bottom:10px">📈</div>
         <div class="mg-title">Power Weekly</div>
         <div class="mg-desc">Encontros com os estrategistas da VK, focados em estratégia e direcionamento para o seu negócio.</div>
         <div style="font-size:11px;font-weight:500;color:var(--purple-600);margin-top:8px;padding-top:8px;border-top:1px solid var(--border)">Clique para saber mais →</div>
       </div>
- 
-      <div class="mg-card" style="cursor:pointer" onclick="document.getElementById('modal-ind').style.display='flex'">
+
+      <div class="mg-card" style="cursor:pointer;grid-column:1/-1" onclick="document.getElementById('modal-ind').style.display='flex'">
         <div style="font-size:18px;margin-bottom:10px">🤝</div>
         <div class="mg-title">Programa de Indicação</div>
         <div class="mg-desc">Indique parceiros de negócio para a Mentoria e gere vantagens estratégicas para ambos.</div>
